@@ -1,0 +1,15 @@
+id: 1
+name: ztaxi
+chain_id: 271
+prover_version: NoProofs
+configs: /home/leoforever/foundry-proj/Ztaxi/decentralized_services/chains/ztaxi/configs/
+rocks_db_path: /home/leoforever/foundry-proj/Ztaxi/decentralized_services/chains/ztaxi/db/
+external_node_config_path: null
+artifacts_path: /home/leoforever/foundry-proj/Ztaxi/decentralized_services/chains/ztaxi/artifacts/
+l1_batch_commit_data_generator_mode: Rollup
+base_token:
+  address: '0x0000000000000000000000000000000000000001'
+  nominator: 1
+  denominator: 1
+wallet_creation: Localhost
+evm_emulator: false
